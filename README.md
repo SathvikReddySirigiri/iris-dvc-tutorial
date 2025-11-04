@@ -398,7 +398,7 @@ git push
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/iris-dvc-tutorial.git
+git clone https://github.com/SathvikReddySirigiri/iris-dvc-tutorial.git
 cd iris-dvc-tutorial
 ```
 
