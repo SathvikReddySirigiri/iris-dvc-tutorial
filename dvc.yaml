@@ -1,0 +1,14 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - data/iris.csv
+    - train.py
+    outs:
+    - models/logistic_regression.pkl
+    - models/random_forest.pkl
+    - predictions/lr_predictions.csv
+    - predictions/rf_predictions.csv
+    metrics:
+    - metrics.json:
+        cache: false
